@@ -35,17 +35,19 @@ export const jobs = [
 ]
 
 export const projects = [
-  { lvl: 'LEVEL 1 · NOV 2025 – NOW', title: 'CampusMind', link: GH,
+  { lvl: 'LEVEL 1 · NOV 2025 – NOW', title: 'CampusMind',
+    link: 'https://github.com/prashanth-420/CampusMind',
     desc: 'AI-powered LMS that auto-generates conflict-free college timetables with the CP-SAT solver, assigns substitute faculty when instructors are unavailable, and offers role-based dashboards for admins, faculty and students. Secured with Supabase RBAC and Row-Level Security.',
     tags: ['React', 'Flask', 'Python', 'Supabase', 'OR-Tools'] },
-  { lvl: 'LEVEL 2 · JUL 2026 – NOW', title: 'AssetFlow-ERC', link: GH,
-    desc: 'Full-stack ERP for asset management covering registration, allocation, transfers, maintenance and audits. Features automated lifecycle workflows, JWT auth with BCrypt, QR-code tracking, live dashboards and PDF/Excel/CSV reports.',
-    tags: ['Spring Boot', 'Spring Security', 'JPA', 'React', 'Tailwind'] },
-  { lvl: 'LEVEL 3 · SEP 2025 – NOW', title: 'Face Recognition Attendance', link: GH,
+  { lvl: 'LEVEL 2 · SEP 2025 – NOW', title: 'Face Recognition Attendance',
+    link: 'https://github.com/prashanth-420/face-recognition-attendance-system',
     desc: 'Real-time attendance system using OpenCV and face_recognition with duplicate-proof marking, live camera streaming, analytics dashboards and JWT-secured role-based access. Face encodings are stored in MongoDB.',
     tags: ['React', 'FastAPI', 'OpenCV', 'MongoDB'] },
+  { lvl: 'LEVEL 3 · JAN – FEB 2026', title: 'Sentiment Analysis App',
+    link: 'https://github.com/prashanth-420/sentiment-analysis-app',
+    desc: 'Full-stack NLP web app that classifies text as Positive, Negative or Neutral with polarity and subjectivity scores. A React + TypeScript frontend talks to a Flask REST API (/analyze) that runs TextBlob for real-time results.',
+    tags: ['React', 'TypeScript', 'Tailwind', 'Flask', 'TextBlob'] },
 ]
-
 export const papers = [
   { badge: 'PUBLISHED · ICETCE 2026', title: 'FALCON: Temporal Graph Learning for Failure Propagation Analysis and Availability Assessment in Mobile Applications',
     desc: 'Research on temporal failure propagation in mobile app review data. Proposes a graph framework using Temporal Graph Attention Networks (T-GAT) for failure dependency analysis, plus the Availability Resilience Index (ARI) to quantify app resilience.',
